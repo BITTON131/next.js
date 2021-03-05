@@ -1,0 +1,112 @@
+.ChallengeBoxContainer {
+    height: 100%;
+
+    background: var(--white);
+    border-radius: 5px;
+    box-shadow: 0 0 60px rgba(0, 0, 0, 0.050);
+    padding: 1.5rem 2rem;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    text-align: center;
+}
+
+.challengenotActive {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.challengenotActive strong {
+    font-size: 1.5rem;
+    font-weight: 500;
+    line-height: 1.4;
+}
+
+.challengenotActive p {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    line-height: 1.4;
+    max-width: 70%;
+    margin-top: 3rem;
+}
+
+.challengenotActive p img {
+    margin-bottom: 1rem;
+    
+}
+
+.challengenotActive {
+    height: 100%;
+    
+    display: flex;
+    flex-direction: column;
+}
+
+.challengenotActive header {
+    color: var(--blue);
+    font-weight: 600;
+    font-size: 1.25rem;
+    padding: 0 2rem 1.5rem;
+    border-bottom: 1px solid var(--gray-line);
+}
+
+.challengenotActive main {
+    flex:1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.challengenotActive main strong {
+    font-weight: 600;
+    font-size: 2rem;
+    color: var(--title);
+    margin: 1.5rem 0 1rem;
+}
+
+.challengenotActive main p {
+    line-height: 1.5;
+}
+
+.challengenotActive footer {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+}
+
+.challengenotActive footer button {
+    height: 3rem;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    border: 0;
+    border-radius: 10px;
+
+    color: var(--white);
+
+    font-size: 2rem;
+    font-weight: 600;
+    transition: filter 0.2s;
+}
+
+.challengenotActive footer button.challengeFailedButton {
+    background: var(--red);
+
+}
+.challengenotActive footer button.challengeSuccededButton {
+    background: var(--green);
+    
+}
+.challengenotActive footer button:hover {
+    filter: brightness(0.9);
+}
+

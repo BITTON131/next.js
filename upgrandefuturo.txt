@@ -1,0 +1,16 @@
+//criar o modo escuro>>>
+*depois criar o botao do tema light para dark////
+
+//criar site de login>>>
+*importa foto do github do user e nickname///
+
+//cria sitema de rank com varios users>>>
+o sistema devera ter numero de 'posição', 'Dasafios', 'Experencia'
+
+//cirar um menu no left do site com o 3x icons >>>
+
+
+ ///no LevelUpModal criar um botao "compatilhiar no twitter icon do brid"
+
+ imagens do projeto no google drive
+ 
